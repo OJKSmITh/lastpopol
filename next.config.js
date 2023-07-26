@@ -6,6 +6,10 @@ const nextConfig = {
       'www.notion.so',
       "s3.us-west-2.amazonaws.com"
     ]
+  },
+  eslint:{
+    ignoreDuringBuilds: true,
+    dirs: ['pages', 'components'],
   }
 }
 
