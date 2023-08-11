@@ -31,35 +31,35 @@ const ModalCon1 = ()=>{
             <div ref={scrollContainerRef} className='flex w-[5025px] h-[750px] duration-500 transition-all ml-0'>
                 <div className='w-[1005px] h-[530px] p-12 '>
                     <Image alt="swap page" className='object-cover mx-auto' width="900" height="600" src="/swap_page.png"/>
-                    <div className='bg-white border-hidden mt-5 text-2xl'>Defi 코인&토큰을 스왑하는 페이지입니다.</div>
-                    <div className='bg-white border-hidden text-2xl'>Chain Link의 토큰, 코인 가격을 자동으로 받아오며</div>
-                    <div className='bg-white border-hidden text-2xl'>이때 스왑하는 대가로, Defi 생태계에 토큰을 제공합니다</div>
+                    <div className='bg-white border-hidden mt-5 text-2xl dark:text-black'>Defi 코인&토큰을 스왑하는 페이지입니다.</div>
+                    <div className='bg-white border-hidden text-2xl dark:text-black'>Chain Link의 토큰, 코인 가격을 자동으로 받아오며</div>
+                    <div className='bg-white border-hidden text-2xl dark:text-black'>이때 스왑하는 대가로, Defi 생태계에 토큰을 제공합니다</div>
                 </div>
                 <div className='w-[1005px] h-[650px] p-12'>
                     <Image alt="swap page" className='object-cover mx-auto' width="900" height="600" src="/deposit.png"/>
-                    <div className='bg-white border-hidden mt-5 mx-auto text-2xl'>단일 토큰 예치 페이지입니다.</div>
-                    <div className='bg-white border-hidden mx-auto text-2xl'>한가지 토큰만 예치하는 페이지입니다.</div>
+                    <div className='bg-white border-hidden mt-5 mx-auto text-2xl dark:text-black'>단일 토큰 예치 페이지입니다.</div>
+                    <div className='bg-white border-hidden mx-auto text-2xl dark:text-black'>한가지 토큰만 예치하는 페이지입니다.</div>
                 </div>
                 <div className='w-[1005px] h-[650px] p-12'>
                     <Image alt="swap page" className='object-cover mx-auto' width="900" height="600" src="/pairdeposit.png"/>
-                    <div className='bg-white border-hidden mt-5 mx-auto text-2xl'>페어예치 페이지입니다.</div>
-                    <div className='bg-white border-hidden mx-auto text-2xl'>페어예치를 진행하는데, 이때 당시도, chainLink</div>
-                    <div className='bg-white border-hidden mx-auto text-2xl'>를 통해서 예치 비율을 산정하고, 그 비율에 맞춰야만 예치가 가능합니다.</div>
+                    <div className='bg-white border-hidden mt-5 mx-auto text-2xl dark:text-black'>페어예치 페이지입니다.</div>
+                    <div className='bg-white border-hidden mx-auto text-2xl dark:text-black'>페어예치를 진행하는데, 이때 당시도, chainLink</div>
+                    <div className='bg-white border-hidden mx-auto text-2xl dark:text-black'>를 통해서 예치 비율을 산정하고, 그 비율에 맞춰야만 예치가 가능합니다.</div>
                 </div>
                 <div className='w-[1005px] h-[650px] p-12'>
                     <Image alt="swap page" className='object-cover mx-auto' width="900" height="600" src="/stakingpage.png"/>
-                    <div className='bg-white border-hidden mt-5 mx-auto text-2xl'>staking 페이지입니다.</div>
-                    <div className='bg-white border-hidden mx-auto text-2xl'>우리가 넣은 페어예치를 하고 받은 lp를 생태계에 제공하고, </div>
-                    <div className='bg-white border-hidden mx-auto text-2xl'>그 대가로 생태계에 참여할 권리를 받습니다.</div>
+                    <div className='bg-white border-hidden mt-5 mx-auto text-2xl dark:text-black'>staking 페이지입니다.</div>
+                    <div className='bg-white border-hidden mx-auto text-2xl dark:text-black'>우리가 넣은 페어예치를 하고 받은 lp를 생태계에 제공하고, </div>
+                    <div className='bg-white border-hidden mx-auto text-2xl dark:text-black'>그 대가로 생태계에 참여할 권리를 받습니다.</div>
                 </div>
                 <div className='w-[1005px] h-[650px] p-12'>
                     <Image alt="swap page" className='object-cover mx-auto' width="900" height="600" src="/unstakingpage.png"/>
-                    <div className='bg-white border-hidden mt-5 mx-auto text-2xl'>Unstaking 페이지입니다.</div>
-                    <div className='bg-white border-hidden mx-auto text-2xl'>Un</div>
-                    <div className='bg-white border-hidden mx-auto text-2xl'>이때 스왑하는 대가로, Defi 생태계에 토큰을 제공합니다</div>
+                    <div className='bg-white border-hidden mt-5 mx-auto text-2xl dark:text-black'>Unstaking 페이지입니다.</div>
+                    <div className='bg-white border-hidden mx-auto text-2xl dark:text-black'>Un</div>
+                    <div className='bg-white border-hidden mx-auto text-2xl dark:text-black'>이때 스왑하는 대가로, Defi 생태계에 토큰을 제공합니다</div>
                 </div>
-                <Icon icon="iconoir:nav-arrow-up" className='absolute text-7xl font-bold top-[300px] left-[-10px]' onClick={()=>handleScroll('left')} rotate={3} />
-                <Icon icon="iconoir:nav-arrow-up" className='absolute text-7xl font-bold top-[300px] left-[950px]' onClick={()=>handleScroll('right')} rotate={1} />
+                <Icon icon="iconoir:nav-arrow-up" className='absolute text-7xl font-bold top-[300px] left-[-10px] dark:text-black' onClick={()=>handleScroll('left')} rotate={3} />
+                <Icon icon="iconoir:nav-arrow-up" className='absolute text-7xl font-bold top-[300px] left-[950px] dark:text-black' onClick={()=>handleScroll('right')} rotate={1} />
             </div>
         </>
     )
@@ -91,27 +91,27 @@ const ModalCon2 = ()=>{
             <div ref={scrollContainerRef} className='flex w-[4020px] h-[750px] duration-500 transition-all'>
                 <div className='w-[1005px] h-[530px] p-12 '>
                     <Image alt="swap page" className='object-cover mx-auto' width="900" height="600" src="/chatpiano.png"/>
-                    <div className='bg-white border-hidden mt-5 text-2xl'>사용자에게 멜로디를 입력받고, chatGpt에게 전송하는 페이지입니다</div>
-                    <div className='bg-white border-hidden text-2xl'>5개의 입력값을 받으면 악보를 띄우고</div>
-                    <div className='bg-white border-hidden text-2xl'>입력값을 전송하고 나면 그걸 토대로 멜로디를 만들어줍니다.</div>
+                    <div className='bg-white border-hidden mt-5 text-2xl dark:text-black'>사용자에게 멜로디를 입력받고, chatGpt에게 전송하는 페이지입니다</div>
+                    <div className='bg-white border-hidden text-2xl dark:text-black'>5개의 입력값을 받으면 악보를 띄우고</div>
+                    <div className='bg-white border-hidden text-2xl dark:text-black'>입력값을 전송하고 나면 그걸 토대로 멜로디를 만들어줍니다.</div>
                 </div>
                 <div className='w-[1005px] h-[650px] p-12'>
                     <Image alt="swap page" className='object-cover mx-auto' width="900" height="600" src="/chat2.png"/>
-                    <div className='bg-white border-hidden mt-5 mx-auto text-2xl'>Socket.Io를 이용한 전체 채팅방입니다.</div>
-                    <div className='bg-white border-hidden mx-auto text-2xl'>socket.io의 event명을 통해 전체 채팅을 구현하였습니다.</div>
+                    <div className='bg-white border-hidden mt-5 mx-auto text-2xl dark:text-black'>Socket.Io를 이용한 전체 채팅방입니다.</div>
+                    <div className='bg-white border-hidden mx-auto text-2xl dark:text-black'>socket.io의 event명을 통해 전체 채팅을 구현하였습니다.</div>
                 </div>
                 <div className='w-[1005px] h-[650px] p-12'>
                     <Image alt="swap page" className='object-cover mx-auto' width="900" height="600" src="/Oauth.png"/>
-                    <div className='bg-white border-hidden mt-5 mx-auto text-2xl'>간편로그인입니다.</div>
-                    <div className='bg-white border-hidden mx-auto text-2xl'>Oauth 2.0을 통한 간편 로그인을 구현하였습니다.</div>
+                    <div className='bg-white border-hidden mt-5 mx-auto text-2xl dark:text-black'>간편로그인입니다.</div>
+                    <div className='bg-white border-hidden mx-auto text-2xl dark:text-black'>Oauth 2.0을 통한 간편 로그인을 구현하였습니다.</div>
                 </div>
                 <div className='w-[1005px] h-[650px] p-12'>
                     <Image alt="swap page" className='object-cover mx-auto' width="900" height="600" src="/emailauth3.png"/>
-                    <div className='bg-white border-hidden mt-5 mx-auto text-2xl'>이메일 인증입니다.</div>
-                    <div className='bg-white border-hidden mx-auto text-2xl'>nodemailer를 통해서 구현하였고, 구글메일 서비스를 사용하였습니다.</div>
+                    <div className='bg-white border-hidden mt-5 mx-auto text-2xl dark:text-black'>이메일 인증입니다.</div>
+                    <div className='bg-white border-hidden mx-auto text-2xl dark:text-black'>nodemailer를 통해서 구현하였고, 구글메일 서비스를 사용하였습니다.</div>
                 </div>
-                <Icon icon="iconoir:nav-arrow-up" className='absolute text-7xl font-bold top-[300px] left-[-10px]' onClick={()=>handleScroll('left')} rotate={3} />
-                <Icon icon="iconoir:nav-arrow-up" className='absolute text-7xl font-bold top-[300px] left-[950px]' onClick={()=>handleScroll('right')} rotate={1} />
+                <Icon icon="iconoir:nav-arrow-up" className='absolute text-7xl font-bold top-[300px] left-[-10px] dark:text-black' onClick={()=>handleScroll('left')} rotate={3} />
+                <Icon icon="iconoir:nav-arrow-up" className='absolute text-7xl font-bold top-[300px] left-[950px] dark:text-black' onClick={()=>handleScroll('right')} rotate={1} />
             </div>
         </>
     )
@@ -142,22 +142,22 @@ const ModalCon3 = ()=>{
             <div ref={scrollContainerRef} className='flex w-[4020px] h-[750px] duration-500 transition-all'>
                 <div className='w-[1005px] h-[530px] p-12 '>
                     <Image alt="swap page" className='object-cover mx-auto' width="900" height="600" src="/indexing2.png"/>
-                    <div className='bg-white border-hidden mt-5 text-2xl'>전체 게시물 검색기능입니다.</div>
-                    <div className='bg-white border-hidden text-2xl'>게시물, 유저를 검색할 수 있도록 설정하였습니다.</div>
+                    <div className='bg-white border-hidden mt-5 text-2xl dark:text-black'>전체 게시물 검색기능입니다.</div>
+                    <div className='bg-white border-hidden text-2xl dark:text-black'>게시물, 유저를 검색할 수 있도록 설정하였습니다.</div>
                 </div>
                 <div className='w-[1005px] h-[650px] p-12'>
                     <Image alt="swap page" className='object-cover mx-auto' width="900" height="600" src="/hot5.png"/>
-                    <div className='bg-white border-hidden mt-5 mx-auto text-2xl'>Sequelize를 통해 indexing하는 페이지입니다.</div>
-                    <div className='bg-white border-hidden mx-auto text-2xl'>DB에서 좋아요를 받은 순대로 핫 게시물을 선정합니다</div>
+                    <div className='bg-white border-hidden mt-5 mx-auto text-2xl dark:text-black'>Sequelize를 통해 indexing하는 페이지입니다.</div>
+                    <div className='bg-white border-hidden mx-auto text-2xl dark:text-black'>DB에서 좋아요를 받은 순대로 핫 게시물을 선정합니다</div>
                 </div>
                 <div className='w-[1005px] h-[650px] p-12'>
                     <Image alt="swap page" className='object-cover mx-auto' width="900" height="600" src="/main2.png"/>
-                    <div className='bg-white border-hidden mt-5 mx-auto text-2xl'>메인페이지입니다.</div>
-                    <div className='bg-white border-hidden mx-auto text-2xl'>게시판에서 랜덤한 9개의 게시물을 가져오도록 설정하였습니다</div>
+                    <div className='bg-white border-hidden mt-5 mx-auto text-2xl dark:text-black'>메인페이지입니다.</div>
+                    <div className='bg-white border-hidden mx-auto text-2xl dark:text-black'>게시판에서 랜덤한 9개의 게시물을 가져오도록 설정하였습니다</div>
                 </div>
                 
-                <Icon icon="iconoir:nav-arrow-up" className='absolute text-7xl font-bold top-[300px] left-[-10px]' onClick={()=>handleScroll('left')} rotate={3} />
-                <Icon icon="iconoir:nav-arrow-up" className='absolute text-7xl font-bold top-[300px] left-[950px]' onClick={()=>handleScroll('right')} rotate={1} />
+                <Icon icon="iconoir:nav-arrow-up" className='absolute text-7xl font-bold top-[300px] left-[-10px] dark:text-black' onClick={()=>handleScroll('left')} rotate={3} />
+                <Icon icon="iconoir:nav-arrow-up" className='absolute text-7xl font-bold top-[300px] left-[950px] dark:text-black' onClick={()=>handleScroll('right')} rotate={1} />
             </div>
         </>
     )
@@ -174,10 +174,9 @@ export default function ProjectItem({index,data}){
     const startDate = data.properties.period.date.start
     const endDate = data.properties.period.date.end
 
-    const fixdescript=  description.split("-")
+    const fixdescript= description.split("-")
     fixdescript.shift()
 
-    console.log(index)
     let ModalContent;
     switch (index) {
         case 0:
